@@ -36,7 +36,9 @@
        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ssm.demo.dao" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
-        <table tableName="t_comment" domainObjectName="Comment"></table>
+        <table tableName="t_invitation_image" domainObjectName="InvitationImage"></table>
+        <table tableName="t_invitation_content" domainObjectName="InvitationContent"></table>
+        <table tableName="t_invitation" domainObjectName="Invitation"></table>
 
     </context>
 </generatorConfiguration>
